@@ -11,7 +11,7 @@ function save(name, data, callback){
     'base64'
   );
 
-  fs.writeFile(name, buf, callback);
+  fs.writeFile(name, buffer, callback);
 }
 
 function server(directory, port){
