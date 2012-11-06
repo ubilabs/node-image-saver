@@ -1,4 +1,4 @@
-var saver = require("../node-images-saver"),
+var saver = require("../image-saver"),
   path = "images",
   port = 8888;
 

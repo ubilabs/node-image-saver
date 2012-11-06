@@ -7,7 +7,7 @@ function save(name, data, callback){
   console.log("Saving image to", name, "…");
   
   var buffer = new Buffer(
-    data.replace(/^data:image\/\w+;base64,/, ""), 
+    data.replace(/^data:image\/\w+;base64,/, ""),
     'base64'
   );
 
