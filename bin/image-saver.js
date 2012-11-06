@@ -1,0 +1,1 @@
+require("../node-images-saver").createServer("images", 8888);

@@ -1,0 +1,22 @@
+{
+  "name": "image-saver",
+  "description": "Saves an image data URI back to the file system.",
+  "version": "0.1.0",
+  "dependencies": {
+    "querystring": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ubilabs/node-image-saver.git"
+  },
+  "author": "Martin Kleppe <kleppe@ubilabs.net>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nodeapps/http-server/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "start": "node bin/image-saver.js"    
+  }
+}
