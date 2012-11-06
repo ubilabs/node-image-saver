@@ -1,1 +1,5 @@
-require("../node-images-saver").createServer("images", 8888);
+var saver = require("../node-images-saver"),
+  path = "images",
+  port = 8888;
+
+saver.createServer(path, port);
